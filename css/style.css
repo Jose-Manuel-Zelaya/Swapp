@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+:root{
+
+	--fondo-swape: #09090d;
+	--fondo-get: #101117;
+	--fondo-features: #121520;
+	--fondo-redes: #151721;
+	--fondo-footer: #040406;
+	--color-texto: #EDB44D;
+	--color-gris: #dbdce4;
+	--texto-footer: #373946;
+
+}
+
+#header-nav{
+	background-color: white;
+	color: var(--color-gris);
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: var(--color-gris);
+}
+#home{
+	background-color: var(--fondo-swape);
+}
+#features{
+	background-color: var(--fondo-get);
+}
+#features2{
+	background-color: var(--fondo-features);
+}
+#wyg{
+	background-color: var(--fondo-get);
+}
+#screenshots{
+	background-image:url("../img/bg-features.jpg")
+}
+#users{
+	background-color: var(--fondo-features);
+}
+#download{
+	padding: 3% 0;
+	background-image:url("../img/bg-features.jpg")
+}
+#social{
+	text-align: center;
+	font-size: 75px;
+	padding: 3% 0;
+	background-color: var(--fondo-redes);
+}
+footer{
+	text-align: center;
+	color: var(--texto-footer);
+	background-color: var(--fondo-footer);
+}
